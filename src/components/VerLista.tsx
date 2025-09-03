@@ -94,7 +94,7 @@ const VerLista = () => {
   return (
     <div className="p-3">
       <div className="centrado">
-        <div className="col-12 md:col-4 mt-2 border-1">
+        <div className="col-12 md:col-4 border-1">
           <div className="mb-3">
             <label className="font-bold mr-2">Tu nombre:</label>
             <InputText

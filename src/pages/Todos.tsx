@@ -105,15 +105,15 @@ const Todos = () => {
   return (
     <div className="p-3">
       <div className="centrado">
-        <div className="col-12 md:col-8 mt-2">
+        <div className="col-12 md:col-8">
           <Toast ref={toast} />
 
           <div className="w-full text-left border-1 p-3 gap-3">
-            Tutorial Express: Agregas items a la lista(compras, actividades de
-            la casa, rutina del dia, etc.) una vez terminada, le das al boton
-            "Crear" y te va a dar un enlace esa es tu lista la puedes usar o
-            compartila con alguien mas y entre varios podran ir tachando las
-            consignas cumplidas. La lista expira por si sola en 24hs.
+            Tutorial Express: Agregás ítems a la lista (compras, actividades de
+            la casa, rutina del día, etc.). Una vez terminada, le das al botón
+            "Crear" y te va a dar un enlace. Esa es tu lista: la podés usar o
+            compartirla con alguien más y entre varios podrán ir tachando las
+            consignas cumplidas. La lista expira por sí sola en 24 hs.
           </div>
           <div className="mt-2 w-full border-1 centrado p-3 gap-3">
             <label>Nombre de la Lista:</label>
