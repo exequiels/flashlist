@@ -1,69 +1,43 @@
-# React + TypeScript + Vite
+**Flashlist collaborative lists, with no registration needed.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I choose to believe that everything adds up, that I make a difference—even the projects that don't seem to have an apparent impact. To me, they're paths already walked or yet to be walked.
 
-Currently, two official plugins are available:
+Today, at 41 years old, I launched flashlist.com.ar: a project built with React and Laravel, conceived as an excuse to keep learning while offering an alternative to what's already out there.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Time simply flies. Thank you to my family and all the good vibes people.
 
-## Expanding the ESLint configuration
+I wanted to keeps practicing and a small simple project.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+[Visit flashlist.com.ar](https://flashlist.com.ar)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Technologies Used
+React, TypeScript, and Laravel
+PrimeReact: component library.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Create an `.env` file and add the variables:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+VITE_URL=
+VITE_BACKEND_URL=
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Start it up:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run install
+npm run dev
 ```
+
+You need to set up the backend for all of this to generate the lists. However, you can see a full preview of the list builder in the React part until you click the "Create" button.
+
+Search my repo for the backend.
+
+<!-- PORTFOLIO_DATA_START
+**Stack:** React, TypeScript, PrimeFlex, PrimeReact, Laravel APIs.
+**Description:** Flashlist – a shared to-do list that can be completed collaboratively via WhatsApp.
+**What I've learned and tested:**
+- Client-side React is not SEO-friendly by default, and I struggled to fully understand how SEO works in this setup.
+- Real-time features are not free: WebSockets in PHP usually require paid infrastructure or external services.
+- I learned that using Laravel purely as an API does not solve SSR or SEO; the frontend is still a client-side rendered application.
+- This project reinforced my shift in mindset: today I use AI primarily as a learning and reasoning tool, not just for code generation.
+PORTFOLIO_DATA_END -->
