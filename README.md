@@ -54,6 +54,5 @@ Search my repo for the backend.
 - Real-time features are not free: WebSockets in PHP usually require paid infrastructure or external services.
 - Using Laravel purely as an API does not solve SSR or SEO; the frontend remains a client-side rendered application.
 - For many products, a simple monolithic backend is more effective and easier to operate than prematurely adopting microservices.
-- This project reinforced my shift in mindset: today I use AI primarily as a learning and reasoning tool, not just for code generation.
 - Working on this project deepened my understanding of Laravel, and it motivated me to build a future project focused purely on PHP/Laravel to better leverage its full capabilities.
 PORTFOLIO_DATA_END -->
