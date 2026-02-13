@@ -24,7 +24,6 @@ The project was intentionally kept simple to explore cost-efficient architecture
 - Real-time features are not free: WebSockets in PHP often require paid infrastructure or external services.
 - Using Laravel purely as an API does not solve SSR or SEO; the frontend remains client-side rendered.
 - For many products, a simple monolithic backend hosted on low-cost infrastructure is more effective than prematurely adopting microservices.
-- This project reinforced my shift in mindset: today I use AI primarily as a learning and reasoning tool, not just for code generation.
 - Working on this project deepened my understanding of Laravel and motivated me to build a future project focused purely on PHP/Laravel to better leverage its full capabilities.
 
 ## Local Setup
