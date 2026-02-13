@@ -2,6 +2,7 @@
 
 Flashlist is a small exploratory project built to practice building simple, low-friction products.
 It allows users to create collaborative lists without registration and share them easily, for example via WhatsApp.
+List expires 24hs.
 
 The project was intentionally kept simple to explore cost-efficient architectures using React and a monolithic Laravel backend hosted on low-cost infrastructure.
 
